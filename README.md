@@ -23,7 +23,7 @@ To use the extension, simply open Visual Studio Code and navigate to the Extensi
 
 Now when you encounter an error in your code, simply copy the erroneous code fragment and press "ALT+/" for a list of probable solutions on Stack Overflow.
 
-You can also enter "ALT+E" for display the most probable solution from Stack Overflow!
+You can also enter "ALT+E" for displaying the most probable solution from Stack Overflow!
 
 
 ## Contributing
