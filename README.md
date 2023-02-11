@@ -25,6 +25,8 @@ Now when you encounter an error in your code, simply copy the erroneous code fra
 
 You can also enter "ALT+E" for displaying the most probable solution from Stack Overflow!
 
+Note: Access only v0.0.1 now! v0.0.2 is out of order!
+
 
 ## Contributing
 
