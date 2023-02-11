@@ -31,10 +31,6 @@ You can also enter "ALT+E" for display the most probable solution from Stack Ove
 If you are interested in contributing to this extension, feel free to fork the repository and submit a pull request. Any contributions, big or small, are greatly appreciated.
 
 
-## 📄 License
-
-This extension is released under the MIT License.
-
 ## Support
 
 If you need help or have any questions, please open an issue on the GitHub repository.
