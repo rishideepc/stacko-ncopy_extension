@@ -1,0 +1,34 @@
+{
+  "name": "StackOnCopy",
+  "displayName": "StackO'n Copy",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./build/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "StackOnCopy.stackCpy",
+        "title": "Stack Cpy"
+      }
+    ],
+    "configuration": {
+      "title": "StackO'n Copy",
+      "properties": {}
+    },
+    "keybindings": [
+      {
+        "command": "StackOnCopy.stackCpy",
+        "key": "ALT+/"
+      }
+    ]
+  },
+  "activationEvents": [
+    "onCommand:StackOnCopy.stackCpy"
+  ],
+  "publisher": "RishideepChatterjee"
+}
