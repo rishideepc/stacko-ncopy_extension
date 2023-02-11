@@ -197,6 +197,22 @@ let funcName = "stack_cpy"; let pyVar = "python";
         });
         });
 context.subscriptions.push(stackCpy);
+let stackCpyFirstlink = vscode.commands.registerCommand('StackOnCopy.stackCpyFirstlink',async function () {
+let funcName = "stack_cpy_firstLink"; let pyVar = "python";
+        let py = spawn(pyVar, [pythonPath, funcName]);
+
+        py.stdout.on("data", (data) => {
+            try {
+            executeCommands(py, data, globalStorage);
+            } catch (e) {
+            console.error(e);
+            }
+        });
+        py.stderr.on("data", (data) => {
+            console.error(`An Error occurred in the python script: ${data}`);
+        });
+        });
+context.subscriptions.push(stackCpyFirstlink);
 }
 
 function deactivate() {}
