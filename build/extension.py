@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import requests
 
 
-ext= vscode.Extension(name="StackOnCopy", display_name="StackO'n Copy", version="0.0.2")
+ext= vscode.Extension(name="StackOnCopy", display_name="StackO'n Copy", version="0.0.1")
 
 @ext.event
 def on_activate():
